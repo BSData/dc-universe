@@ -1,5 +1,4 @@
-
-DS Universe Miniature Game
+DC Universe Miniature Game
 ==========================
 
 #### Contents ####
