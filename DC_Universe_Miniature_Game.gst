@@ -791,6 +791,7 @@ This bonus doesn’t Stack.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>You can add this character to your team up to 3 times.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
