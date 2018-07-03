@@ -137,7 +137,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e709-a99b-e214-7e89" name="Awkwardness/1 (Effect)" hidden="false" targetId="5155-2d8c-3192-6c99" type="rule">
+        <infoLink id="e709-a99b-e214-7e89" name="Awkwardness/X (Effect)" hidden="false" targetId="5155-2d8c-3192-6c99" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -167,6 +167,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6093-72dc-b3e6-6925" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -349,6 +356,20 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c1c-e672-cbfc-7174" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb4d-6f83-20ff-90a7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -478,7 +499,7 @@
             <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
             <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
             <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="4"/>
-            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Other models in range suffer -2 Agility"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Until the end of the Round, other models in range suffer -2 Agility"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2686,7 +2707,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="6"/>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="6 | +1 Attack, +1 Stamina"/>
             <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6 | -1 Power"/>
             <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="6 | -1 Power, -1 Strength, -1 Fly"/>
           </characteristics>
@@ -4116,7 +4137,7 @@
           <characteristics>
             <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="5"/>
             <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="4"/>
-            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="4 | -1 Power, -1 Agility"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="4 | -1 Attack, -1 Agility"/>
           </characteristics>
         </profile>
         <profile id="fafc-4028-391e-0850" name="(E) Kryptonite Strike" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
@@ -4188,7 +4209,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="99fd-58bb-ee0f-fbd8" name="New InfoLink" hidden="false" targetId="7eb2-25c5-1b36-3ed9" type="rule">
+        <infoLink id="99fd-58bb-ee0f-fbd8" name="Scientific" hidden="false" targetId="7eb2-25c5-1b36-3ed9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4343,7 +4364,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="167a-b64e-9917-ecba" name="New InfoLink" hidden="false" targetId="f680-a7b7-520d-b6a9" type="rule">
+        <infoLink id="167a-b64e-9917-ecba" name="Fly" hidden="false" targetId="f680-a7b7-520d-b6a9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4654,7 +4675,7 @@
             <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="7"/>
             <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="3 / 7 / 10"/>
             <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="6"/>
-            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="2"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="3"/>
             <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="3"/>
             <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="6"/>
             <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="9"/>
@@ -4686,14 +4707,14 @@
             <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="3 | -1 Power, -1 Strength, -Fly"/>
           </characteristics>
         </profile>
-        <profile id="876a-1188-0381-0f29" name="(E) Laser Cannons" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+        <profile id="876a-1188-0381-0f29" name="(B) Laser Cannons" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
-            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
             <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Energy / Laser"/>
             <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="3"/>
             <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="14"/>
@@ -4709,7 +4730,7 @@
             <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="4"/>
             <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Unique"/>
             <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Supernatural / Kryptonite"/>
-            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="4"/>
             <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="10"/>
             <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
           </characteristics>
@@ -5697,7 +5718,13 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8831-e85c-e57a-1975" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7428,7 +7455,13 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8831-e85c-e57a-1975" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10130,7 +10163,13 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d4-af74-e6f3-fb3f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f9d4-af74-e6f3-fb3f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10340,6 +10379,1472 @@
         <cost name="Levels" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9c1c-e672-cbfc-7174" name="Lobo (2018)" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="15cd-8fae-0736-b900" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Unknown"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="9"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="5 / 8"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="4"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="3"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="9"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="10"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="8"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Justice League"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Neutral"/>
+          </characteristics>
+        </profile>
+        <profile id="4d63-6558-b398-a636" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="16"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="16"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="16"/>
+          </characteristics>
+        </profile>
+        <profile id="ef1c-52e1-4161-e5fd" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="6 | +1 Attack"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6 | -1 Power"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="6 | -1 Power, -1 Speed, -1 Attack"/>
+          </characteristics>
+        </profile>
+        <profile id="0103-9a61-e343-ca53" name="(B) Heavy Chain" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Blunt"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee/4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="cb29-2551-0bc1-b2a3" name="(E) Heavylasgun" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Energy / Laser"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="10"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Stun/2"/>
+          </characteristics>
+        </profile>
+        <profile id="87a2-1533-b26e-71a3" name="(U) Finisher Hook" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="5"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Unique"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Pierce"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="4"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee /4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Dazzle/1"/>
+          </characteristics>
+        </profile>
+        <profile id="9d76-4460-399e-24d0" name="(U) I&apos;m the Main Man" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Unique"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="4"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="All models in range must pass a Willpower roll or suffer Dazzle/2."/>
+          </characteristics>
+        </profile>
+        <profile id="1d41-53e0-b16c-14fc" name="(E) Death Blow" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="The next attack of this model gains the Irresistible rule."/>
+          </characteristics>
+        </profile>
+        <profile id="5bbe-c8e9-e572-8f6d" name="(B) Overwhelming Ire" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="After damaging an enemy model, this model may move up to 1&quot;."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="419b-5914-dbb8-724c" name="New InfoLink" hidden="false" targetId="4914-7926-d408-2b46" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e443-f5dd-9141-4fbe" name="Assassin" hidden="false" targetId="62c9-d6cc-ad5b-d427" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c30-e7c5-64f9-7e06" name="Regeneration /2" hidden="false" targetId="479b-c9f7-90f2-85a2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ea9-6b7b-dd6f-9c93" name="Rage / 4" hidden="false" targetId="83e8-cf41-646e-b72d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="36b0-7c19-2a6d-d1cf" name="Cruel" hidden="false" targetId="b09b-fb64-7074-90e7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b1c5-d7ec-fbaf-5f22" name="Stun/X (Effect)" hidden="false" targetId="d802-bc9e-bc31-5feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a08-0641-9d1d-4c3b" name="Dazzle/1 (Effect)" hidden="false" targetId="d73f-f099-6978-2be0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b507-34c5-2df7-8955" name="Soldier" hidden="false" targetId="b8d6-7590-2fa5-5e44" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="98bb-c30c-2c58-ee57" name="Fury" hidden="false" targetId="229c-5e3c-b67f-c14f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8584-4e5d-cde1-0bf3" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb4d-6f83-20ff-90a7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8286-87f8-7bb1-40fe" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="46fd-4874-61ba-79dd" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb4d-6f83-20ff-90a7" name="Lobo&apos;s Space Hog" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2c43-de1f-021b-a4dd" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Unknown"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="9"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="6 / 9 / 12"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="4"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="3"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="9"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="10"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="8"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Justice League"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Neutral"/>
+          </characteristics>
+        </profile>
+        <profile id="9d6a-0808-78e9-9f42" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="16"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="16"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="16"/>
+          </characteristics>
+        </profile>
+        <profile id="1d4d-d117-b6d4-32fd" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="7 | +1 Attack"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="7 | -1 Power"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="6 | -1 Power, -1 Speed, -1 Attack"/>
+          </characteristics>
+        </profile>
+        <profile id="6df8-1acc-2eb4-eeb4" name="(B) Heavy Chain" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Blunt"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee/4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="bc61-d761-d9db-638b" name="(E) Heavylasgun" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Energy / Laser"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="10"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Stun/2"/>
+          </characteristics>
+        </profile>
+        <profile id="0cc5-cad3-7d33-439c" name="(U) Finisher Hook" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="5"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Unique"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Pierce"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="4"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee /4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Dazzle/1"/>
+          </characteristics>
+        </profile>
+        <profile id="088b-415b-99f9-2ee1" name="(U) I&apos;m the Main Man" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Unique"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="4"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="All models in range must pass a Willpower roll or suffer Dazzle/2."/>
+          </characteristics>
+        </profile>
+        <profile id="4937-a6ed-29ca-d2e5" name="(E) Death Blow" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="The next attack of this model gains the Irresistible rule."/>
+          </characteristics>
+        </profile>
+        <profile id="2c9a-d80d-cdd5-6ed2" name="(B) Overwhelming Ire" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="After damaging an enemy model, this model may move up to 1&quot;."/>
+          </characteristics>
+        </profile>
+        <profile id="bcf3-bc5f-291b-83bd" name="(U) Hands Off Mode" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="7"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Unique"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Until the end of the round, this model can only move in a straight line ignoring all the models, at the end of the move, all the models crossed by the base of this model, suffers 2 Damage with the Energy type."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b16b-8245-f775-ddfc" name="New InfoLink" hidden="false" targetId="4914-7926-d408-2b46" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e659-8587-fd06-03cb" name="Assassin" hidden="false" targetId="62c9-d6cc-ad5b-d427" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="41aa-107f-737b-0066" name="Regeneration /2" hidden="false" targetId="479b-c9f7-90f2-85a2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="41c0-fc1a-6389-82ef" name="Rage / 4" hidden="false" targetId="83e8-cf41-646e-b72d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="10c0-8f1d-9aea-0f82" name="Cruel" hidden="false" targetId="b09b-fb64-7074-90e7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="744f-6d2e-f74b-3a31" name="Stun/X (Effect)" hidden="false" targetId="d802-bc9e-bc31-5feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f1b-a5e7-d356-e7a9" name="Dazzle/1 (Effect)" hidden="false" targetId="d73f-f099-6978-2be0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3212-04a4-e6e2-35ac" name="Soldier" hidden="false" targetId="b8d6-7590-2fa5-5e44" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fc5-506c-d47e-0406" name="Fury" hidden="false" targetId="229c-5e3c-b67f-c14f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d60a-c861-2677-15dd" name="Fly" hidden="false" targetId="f680-a7b7-520d-b6a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8584-4e5d-cde1-0bf3" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c1c-e672-cbfc-7174" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cb0c-c9ef-1fb3-57c2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5b96-12f3-6bb9-48c6" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c151-b0b1-3783-3daf" name="The Drowned" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1591-a5a2-6ca2-cc43" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Bryce Wayne"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="9"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="4 / 8"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="3"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="2"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="10"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="9"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="9"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Superhuman"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Villain"/>
+          </characteristics>
+        </profile>
+        <profile id="2bb9-656d-64cd-f11f" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="16"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="15"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="18"/>
+          </characteristics>
+        </profile>
+        <profile id="f77c-26a4-eb1d-6617" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="8 | +1 Speed"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6 | -1 Agility"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="4 | -1 Agility, -1 All Defenses"/>
+          </characteristics>
+        </profile>
+        <profile id="84a5-7d9e-4768-6307" name="(B) Trident Strike" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Pierce"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee /1"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Irresistible"/>
+          </characteristics>
+        </profile>
+        <profile id="374f-dc94-df0a-ac22" name="(E) Dead Water" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Supernatural / Death"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Spray"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Distract /1, Overload: Ensnare/1"/>
+          </characteristics>
+        </profile>
+        <profile id="2c0b-466c-3ac5-1479" name="(B) Hybrid" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="0"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="When this model is in contact with Dead water terrain it gains +1 to all Defenses."/>
+          </characteristics>
+        </profile>
+        <profile id="579c-06a9-5117-4d72" name="(E) Dead Water Manipulation" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="8"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Place a 4&quot; diameter area of dead water terrain completely within range where it does not touch a model&apos;s base or other terrain. Remove it at the end of the Round."/>
+          </characteristics>
+        </profile>
+        <profile id="f38f-d28b-3fe7-5aae" name="(E) Dark Submariner" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="12"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Choose one piece of Dead water or water terrain in range. Remove this model from the game, and place it completely within that piece of Dead water or water terrain."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9d7e-266b-0f98-4b4c" name="Elite Figther" hidden="false" targetId="f4f7-243a-c95a-ef4c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a008-b9f1-618a-f6cd" name="Infiltrator" hidden="false" targetId="34de-2ea1-e48d-9a00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c05b-e62b-9738-4100" name="Toughness / 1" hidden="false" targetId="127f-cd9b-8a0d-2770" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="85e7-6804-e01a-2853" name="Resistance /1 to Physical" hidden="false" targetId="17e1-0a83-d7ad-0495" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec94-3712-8bd8-39f1" name="Resistance /1 to Energy" hidden="false" targetId="7b73-aba5-3e28-de8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="178f-0e16-6864-f30c" name="Irresistible (Effect)" hidden="false" targetId="e032-53ec-8613-b854" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="55ce-b5d6-baf9-caa8" name="Distract/X (Effect)" hidden="false" targetId="419f-268e-83d3-e18d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ffeb-c2be-9d8a-f114" name="Ensnare/X (Effect)" hidden="false" targetId="eafa-737e-a455-9029" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="914e-54a1-56fe-3db8" name="Thermal Vision" hidden="false" targetId="b3cf-5ee1-863a-f9a0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0c4-7760-2c87-f0df" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="877d-0786-8b70-8890" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="952b-722a-5b51-836d" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9dcb-3a35-145e-57f0" name="Dark Night member" hidden="false" targetId="df3e-e868-f4c1-500d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6093-72dc-b3e6-6925" name="The Batman Who Laughs" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="69e2-3f68-6149-cab5" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Bruce Wayne"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="9"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="4 / 8"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="3"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="9"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="10"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="12"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Superhuman"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Villain"/>
+          </characteristics>
+        </profile>
+        <profile id="c2e4-0cae-edfe-d669" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="16"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="15"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="18"/>
+          </characteristics>
+        </profile>
+        <profile id="6105-2955-cf2c-5b9d" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="6 | +1 Power"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="5 | -1 Power, -1 Attack"/>
+          </characteristics>
+        </profile>
+        <profile id="0d63-5294-046d-e6f8" name="(B) Teeth &amp; Claws" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Slash"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee /4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="2c0d-8709-2495-dc8c" name="(E) Gun" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="3"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Pierce"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="8"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="4e66-2a20-7bdd-9973" name="(B) Twisted Robins" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="When this model makes a melee attack and hits the target, if have enough space, the owner of this model can place the model targeted in contact with this model. Also, when this model Incapacitates an enemy model, it recovers 2 Endurance."/>
+          </characteristics>
+        </profile>
+        <profile id="8600-4446-8feb-119b" name="(E) Gas Attack" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A), Reactive (R)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="8"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="All models in range suffers 2 Damage and then, this model can be moved 4&quot;, if used after an enemy declare an attack against this model, the attack is not used and Power Counters are not wasted."/>
+          </characteristics>
+        </profile>
+        <profile id="a9d8-c3ca-862e-fc72" name="(E) The Most Dangerous Man on Earth" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="1"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="2"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Target enemy model suffers one of the following Effects: Awkwardness/2, Dazzle/1, Distract/2, Ensnare/2, or the model lose one Immunity or Resistance till the end of the round."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="803c-1ce1-3951-a47e" name="Aversion: Joker" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d92b-5653-07a3-d251" name="Infiltrator" hidden="false" targetId="34de-2ea1-e48d-9a00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e872-141b-0f07-8599" name="Strategist" hidden="false" targetId="5a98-ffd4-b549-76eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ba7-371a-a7ac-2382" name="Stealth" hidden="false" targetId="2baf-d2c9-0909-0a86" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3723-c9d1-6104-5b93" name="Master Tactician" hidden="false" targetId="c6b2-601d-467e-0784" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c90-8948-02ee-695b" name="Mastermind" hidden="false" targetId="00bd-1971-ec95-81fc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dfe8-1ce5-f2d0-b58a" name="Ensnare/X (Effect)" hidden="false" targetId="eafa-737e-a455-9029" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f8c7-ae6c-409f-bec0" name="Awkwardness/X (Effect)" hidden="false" targetId="5155-2d8c-3192-6c99" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a759-6f5f-3aa6-2721" name="Dazzle/X (Effect)" hidden="false" targetId="d73f-f099-6978-2be0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8b9-4a49-5b73-12e7" name="Distract/X (Effect)" hidden="false" targetId="419f-268e-83d3-e18d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80df-010d-4702-8ad4" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7b9588a-ce0f-45f6-9a1b-b97db933e20a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="756f-2b75-3091-2508" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4e33-dc83-72ca-a0d0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b5a6-9b64-505c-8658" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1741-8934-aca8-8c3f" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ecf8-62e4-9fd6-7ae0" name="Dark Night member" hidden="false" targetId="df3e-e868-f4c1-500d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea3a-e2ca-a787-ad77" name="• Dark Knights (Team Card)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1ff0-de20-f4a8-5fd4" name="Dark Knights" book="" hidden="false" profileTypeId="e661-788c-2c8a-0ac2">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6630-2a46-a888-86a9" value="Your Team can have more than one model with the name Bruce Wayne, but only one copy of each model. During the first two rounds of the game, the opponent&apos;s team cannot activate models consecutively. In addition, during the first two rounds of the game, the opponent&apos;s models cannot be affected by their friendly models&apos; Special Powers and Skills."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="667e-093c-4a32-c55c" name="Requirements Dark Knights" book="" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>There must be 4 or more of the followin models in the Team, and the Alignment declared of the Team must be Villain:
+- The Batman Who Laughs
+- Merciless
+- The Drowned
+- Red Death
+</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="ERROR: Read Requirements">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="df3e-e868-f4c1-500d" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="df16-e9c5-f008-fb63" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="df3e-e868-f4c1-500d" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5541-d7a2-c0db-eea1" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8831-e85c-e57a-1975" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d4-af74-e6f3-fb3f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="df16-e9c5-f008-fb63" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688b-df42-f153-0f45" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e27d-5ea4-fcc6-bf6c" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80df-010d-4702-8ad4" name="The Red Death" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5c1f-411b-3e94-bd2d" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Bruce Wayne"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="8"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="10 / 15"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="1"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="2"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="10"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="9"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="9"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Justice League"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Villain"/>
+          </characteristics>
+        </profile>
+        <profile id="a18a-1dda-fabb-8526" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="16"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="15"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="18"/>
+          </characteristics>
+        </profile>
+        <profile id="1cfd-60ff-fb09-3f97" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="6 | +1 Agility"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="4 | -1 Attack, -1 Agility"/>
+          </characteristics>
+        </profile>
+        <profile id="c406-a2e3-0fd7-2755" name="(B) Combostrike" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Blunt"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee/2"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Distract/1"/>
+          </characteristics>
+        </profile>
+        <profile id="570d-9382-cf0d-bb18" name="(U) Supermass-critical punch" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="5"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Unique"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Blunt"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="4"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee/4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Distract/2, Push/3"/>
+          </characteristics>
+        </profile>
+        <profile id="ce79-6ba3-7cca-3ed0" name="(E) Charge" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Extraordinary"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Blunt"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee/4"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Push/3"/>
+          </characteristics>
+        </profile>
+        <profile id="a204-5d2c-36ed-aa1b" name="(U) Hyperspeed" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Unique"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Place this model up to 20’’ away. This character gains +1 to all Defenses until the end of the round."/>
+          </characteristics>
+        </profile>
+        <profile id="c06f-db18-a912-2f48" name="(B) Too tired" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="If this character hasn&apos;t got any Power counter, gains -1 to all defenses."/>
+          </characteristics>
+        </profile>
+        <profile id="1372-d5b2-cb74-66cf" name="(E) Black Bats" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Active (A)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="3"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="Enemy models in range suffers the Stun/2 effect."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4ebf-4c0d-b3bc-27ee" name="Agile" hidden="false" targetId="fccc-3c95-79fe-af73" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="981c-5cdc-08df-3c36" name="Phase Shift" hidden="false" targetId="403f-33f0-0378-8744" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="193f-163a-abfa-1623" name="Wall-Crawler" hidden="false" targetId="405e-d9b3-bb93-755f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8eea-56c8-78a1-f743" name="Distract/X (Effect)" hidden="false" targetId="419f-268e-83d3-e18d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eff6-1897-88ad-88b7" name="Push/X (Effect)" hidden="false" targetId="c1f8-29c3-5714-9be5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d6d3-3a81-8376-4871" name="Stun/X (Effect)" hidden="false" targetId="d802-bc9e-bc31-5feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bcdd-4a40-fbaa-80b3" name="Infiltrator" hidden="false" targetId="34de-2ea1-e48d-9a00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="09bd-a093-0107-54d4" name="Regeneration /1" hidden="false" targetId="09fa-3afb-5c05-0399" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9fbe-d949-0d04-2c06" name="Elite Figther" hidden="false" targetId="f4f7-243a-c95a-ef4c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6093-72dc-b3e6-6925" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="756f-2b75-3091-2508" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e399-5ac1-841f-cf9c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e631-7302-b11c-6ec0" name="New CategoryLink" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6fd7-051c-ea1a-3d82" name="" hidden="false" targetId="df3e-e868-f4c1-500d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="756f-2b75-3091-2508" name="The Merciless" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3908-a743-3b59-86d5" name="Attributes" page="0" hidden="false" profileTypeId="2093f4cd-f669-06c6-0f4f-06037948fe28">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Character Name" characteristicTypeId="05e8c135-ad80-14b3-0017-f9c22029aab7" value="Bruce Wayne"/>
+            <characteristic name="Power" characteristicTypeId="911f2847-ecab-772a-37ad-b325a40b19ce" value="8"/>
+            <characteristic name="Speed" characteristicTypeId="fd922c18-88be-5191-46b0-1ab589f2ef33" value="4 / 8"/>
+            <characteristic name="Attack" characteristicTypeId="49d96d28-c1dc-f977-7bb6-8e1fbe8fe397" value="7"/>
+            <characteristic name="Strength" characteristicTypeId="9ef0bc71-33ab-98cd-26b3-07c55ed7725f" value="4"/>
+            <characteristic name="Size" characteristicTypeId="84a7bbc1-d970-b7b9-2fd5-f174c9fdda90" value="3"/>
+            <characteristic name="Agility" characteristicTypeId="ae357512-6823-3b1d-aebe-2c2c8e52e2e0" value="8"/>
+            <characteristic name="Stamina" characteristicTypeId="4e4daeff-a451-4e80-f5b5-d588866411b4" value="11"/>
+            <characteristic name="Willpower" characteristicTypeId="d6fc-863a-9aaa-271d" value="10"/>
+            <characteristic name="Faction" characteristicTypeId="d0e0-c03d-1183-cd2e" value="Superhuman"/>
+            <characteristic name="Alignment" characteristicTypeId="3d3e-73e5-dd6a-789c" value="Villain"/>
+          </characteristics>
+        </profile>
+        <profile id="8dc3-f264-8fbd-5721" name="Defenses" hidden="false" profileTypeId="0aed-3bd3-2aaa-6237">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Physical" characteristicTypeId="8ae7-72f6-f278-cb05" value="15"/>
+            <characteristic name="Energy" characteristicTypeId="ecb8-5b30-787e-8ab8" value="15"/>
+            <characteristic name="Supernatural" characteristicTypeId="05fc-2837-01e5-4a01" value="16"/>
+            <characteristic name="Mental" characteristicTypeId="cf20-f678-81bc-115a" value="16"/>
+          </characteristics>
+        </profile>
+        <profile id="5f2e-e514-40f4-452b" name="Endurance" hidden="false" profileTypeId="07d6-95ce-9c89-313a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="1st Zone" characteristicTypeId="4a0d-5cb8-6642-b372" value="8 | +1 Stamina"/>
+            <characteristic name="2nd Zone" characteristicTypeId="b848-9544-7a2f-d6a1" value="6"/>
+            <characteristic name="3rd zone" characteristicTypeId="218b-1f12-55cf-07d5" value="5 | -1 Stamina, -1 Attack"/>
+          </characteristics>
+        </profile>
+        <profile id="19cc-c936-f95e-8ea3" name="(B) Sword" page="0" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="2"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Basic"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Slash"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="2"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Melee"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="3e66-4787-2ead-d99f" name="(U) Devastation" hidden="false" profileTypeId="6f795d1b-72c8-67be-41aa-b19f01c57e00">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="255a71dd-d99c-9284-41b0-3251153fa8f4" value="5"/>
+            <characteristic name="Frequency" characteristicTypeId="8c2ab6b5-ed0a-c4a4-e998-1a5ac91e29db" value="Unique"/>
+            <characteristic name="Nature/Type" characteristicTypeId="506110c4-0beb-8424-f711-f5625250abe0" value="Physical / Pierce"/>
+            <characteristic name="Damage" characteristicTypeId="007da7da-5083-4b0e-45c7-48fbd32f35a3" value="4"/>
+            <characteristic name="Range" characteristicTypeId="f16d0497-6009-e51a-5e4b-8195e5fac2bf" value="Spray"/>
+            <characteristic name="Effects" characteristicTypeId="766e-310f-da26-21b0" value="Irresistible"/>
+          </characteristics>
+        </profile>
+        <profile id="dbea-f686-5c72-d387" name="(B) War" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Basic"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="This model cannot perform actions that score VPs. This model can only score VPs from Incapacitating models, which grants 1 extra VP."/>
+          </characteristics>
+        </profile>
+        <profile id="32fe-8b05-21d9-a928" name="(E) Ares&apos; Helmet" hidden="false" profileTypeId="be6b-cdbb-d375-ad49">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cost" characteristicTypeId="85f0-b715-1ab3-e4c3" value="0"/>
+            <characteristic name="Frequency" characteristicTypeId="5510-b92e-3a35-7284" value="Extraordinary"/>
+            <characteristic name="Use" characteristicTypeId="0eae-b3a1-67d3-6b42" value="Passive (P)"/>
+            <characteristic name="Range" characteristicTypeId="1926-6aee-b562-0107" value="-"/>
+            <characteristic name="Effects" characteristicTypeId="0d51-66c7-3432-6402" value="At the start of each round choose one, the effect lasts until the end of the round: +1 DMG, +2 Attack, +2 All Defenses or Irresistible to all melee Attack."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="52ad-004d-1d67-bca5" name="Close Combat Master" hidden="false" targetId="d63c-384e-f1f6-de52" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4b9a-2323-1dbb-ede0" name="Resistance /1 to Energy" hidden="false" targetId="7b73-aba5-3e28-de8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c48a-0b10-5d05-a9ca" name="Toughness / 1" hidden="false" targetId="127f-cd9b-8a0d-2770" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="89a7-aa45-9de2-9819" name="Fury" hidden="false" targetId="229c-5e3c-b67f-c14f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b12-7b18-54ea-9264" name="Metallic" hidden="false" targetId="574b-b466-62c7-a026" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4cda-1d6b-0b5a-427e" name="Irresistible (Effect)" hidden="false" targetId="e032-53ec-8613-b854" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="86e2-2cbb-08f8-8afc" name="Resistance /1 to Physical" hidden="false" targetId="17e1-0a83-d7ad-0495" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80df-010d-4702-8ad4" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8831-e85c-e57a-1975" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6093-72dc-b3e6-6925" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ea3a-e2ca-a787-ad77" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1abe-1c9e-5cfd-f36e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7cf9-b02d-e3cd-50d3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="23d9-b0bc-8a18-eba0" hidden="false" targetId="eea5-4f44-b142-d4ef" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="291f-befc-b8a1-a86c" name="Dark Night member" hidden="false" targetId="df3e-e868-f4c1-500d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="11.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -10409,6 +11914,31 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c04a-0298-3ed9-d02c" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1be4-1543-1b2b-6143" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Levels" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df3e-e868-f4c1-500d" name="Dark Night member" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="cfbc-d034-3ccd-43fe" name="Dark Night member" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This character could be selected for the requirements of Dark Night Team Card</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c00c-345c-8bfb-af25" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2faa-424a-717e-4100" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a8b386b1-4fa1-5d7e-20fe-68d346fa8983" name="DC Universe Miniature Game" revision="7" battleScribeVersion="2.01" authorName="NeXo" authorUrl="http://labibliotecadealfred.blogspot.com.es/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a8b386b1-4fa1-5d7e-20fe-68d346fa8983" name="DC Universe Miniature Game" revision="8" battleScribeVersion="2.01" authorName="NeXo" authorUrl="http://labibliotecadealfred.blogspot.com.es/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -792,6 +792,34 @@ This bonus doesn’t Stack.</description>
       <infoLinks/>
       <modifiers/>
       <description>You can add this character to your team up to 3 times.</description>
+    </rule>
+    <rule id="95fa-b0de-4c9a-ca4d" name="Resistance /3 to Physical" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this character suffers any kind of damage of the Physical Nature, it is reduced by 3 points.</description>
+    </rule>
+    <rule id="082d-33bb-32dd-3e7d" name="Resistance /3 to Energy" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this character suffers any kind of damage of the Energy Nature, it is reduced by 3 points.</description>
+    </rule>
+    <rule id="1b2b-61d3-cb44-cf45" name="Toughness / 3" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The distance this character can be Pushed or Thrown is reduced by 3 inches. If Toughness lowers a Push or Throw distance to 0”, they are no longer considered Pushed or thrown.</description>
+    </rule>
+    <rule id="7e09-878a-7ffd-ae08" name="Power Transference /1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the beginning of this character’s activation, it can transfer up to 1  Power Counters to a friendly model within 4’’.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
